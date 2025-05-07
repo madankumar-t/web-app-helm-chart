@@ -1,0 +1,6 @@
+image:
+  repository: node:18-alpine
+  tag: latest
+
+service:
+  port: 3000

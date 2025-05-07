@@ -1,0 +1,11 @@
+apiVersion: v2
+name: web-app
+description: Umbrella Helm chart to deploy Node and React apps
+version: 0.1.0
+dependencies:
+  - name: nodeapp
+    version: 0.1.0
+    repository: file://charts/nodeapp
+  - name: reactapp
+    version: 0.1.0
+    repository: file://charts/reactapp
